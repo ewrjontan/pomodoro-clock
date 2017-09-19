@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A Pomodoro Clock</title>
+  </head>
+  
+  <body>
+    <audio id="beep" src="http://www.soundjay.com/button/beep-07.wav"></audio>
+  
+    <div id="clock-container">
+  
+      <div id="options-container">
+
+        <div class="options-column" id="session-container">
+          <h3>Session Length</h3>
+          <div class="button up-button" id="session-up">+</div>
+
+          <div class="option-time" id="session-time"></div>
+
+          <div class="button down-button" id="session-down">-</div>
+        </div>
+      
+        <div id="time-display-container">
+          <h1 id="logo">Pomodoro Clock</h1>
+          <h1 id="time-display">00:00</h1>
+
+          <div id="progress-container">
+            <div id="progress-bar"></div>
+          </div>
+
+        </div>
+      
+        <div class="options-column" id="break-container">
+          <h3>Break Length</h3>
+          <div class="button up-button" id="break-up">+</div>
+        
+          <div class="option-time" id="break-time"></div>
+        
+          <div class="button down-button" id="break-down">-</div>
+
+        </div>
+      </div>
+    
+      <div id="start-stop-container">
+        <div class="ss-button button" id="start-button">
+          <h3>Start</h3>
+        </div>
+        
+        <div class="ss-button button" id="stop-button">
+          <h3>Stop</h3>
+        </div>
+      </div>
+    
+    </div>
+
+
+  </body>
+
+</html>
