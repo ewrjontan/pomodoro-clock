@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+
+body{
+  font-family: 'Orbitron', sans-serif;
+  color: rgba(0, 0,255, 0.8);
+  text-shadow: 1px 4px 6px #cccccc, 0 0 0 #000, 1px 4px 6px #cccccc;
+}
+
+#clock-container{
+  background-color: #cccccc;
+  //width: 100%;
+  //max-width: 600px;
+  //min-width: 475px;
+  width: 600px;
+  height: 300px;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: inset 0 0 10px 5px #b3b3b3;
+}
+
+#options-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  //color: blue;
+  padding-top: 20px;
+  background-color: none;
+}
+
+.options-column{
+  background-color: none;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.button{
+  background-color: #e6e6e6;
+  box-shadow: inset 0px 0px 5px 2px #888888; 
+  width: 75px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.clicked{
+  box-shadow: inset 0px 2px 5px 2px #666666; 
+  background-color: #cccccc;
+}
+
+.up-button{
+  margin: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding-top: 12px;
+}
+
+.option-time{
+  width: 75px;
+  height: 25px;
+  text-align: center;
+  margin: auto;
+  padding-top: 12px;
+  background-color: none;
+}
+
+.down-button{
+  margin: auto;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding-top: 12px;
+}
+
+#time-display-container{
+  margin-top: 20px;
+  background-color: none;
+  min-width: 300px;
+  height: 160px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#logo{
+  margin-top: 5px;
+  //text-shadow: 0px 0px 5px black;
+  //color: rgba(0, 0,255, 0.8);
+  //text-shadow: 1px 4px 6px #cccccc, 0 0 0 #000, 1px 4px 6px #cccccc;
+
+}
+
+#time-display{
+  font-size: 4em;
+  background-color: none;
+  margin-top: 0px;
+  /*color: rgba(0, 0,255, 0.8);
+  text-shadow: 1px 4px 6px #cccccc, 0 0 0 #000, 1px 4px 6px #cccccc;*/
+}
+
+#progress-container{
+  background-color: rgba(0, 0,255, 0.8);;
+  width: 250px;
+  height: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -40px;
+  border: 2px solid #888888;
+}
+
+#progress-bar{
+  width: 0%;
+  background-color: red;
+  height: 25px;
+}
+
+#start-stop-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: none;
+  margin: auto;
+  width: 250px;
+  position: relative;
+  top: 25px;
+}
+
+.ss-button{
+  height: 35px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.ss-button h3{
+  position: relative;
+  top:-8px;
+}
